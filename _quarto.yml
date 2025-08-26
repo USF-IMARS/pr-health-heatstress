@@ -20,5 +20,6 @@ format:
     message: false
     warning: false
 
+jupyter: python3  # use system python
 
 
