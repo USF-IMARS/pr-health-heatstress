@@ -1,0 +1,5 @@
+format: jb-book
+root: index
+chapters:
+  - file: py-demo
+  - file: r-demo        # safe to keep even if you don’t use R

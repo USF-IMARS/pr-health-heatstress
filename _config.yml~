@@ -1,0 +1,18 @@
+title: "Puerto Rico Heat Stress Dashboard"
+author: "Tylar Murray"
+execute:
+  execute_notebooks: "cache"   # "auto" / "force" / "off"
+  timeout: 120
+sphinx:
+  config:
+    nb_execution_raise_on_error: true
+    myst_enable_extensions: ["colon_fence", "dollarmath"]
+only_build_toc_files: true
+exclude_patterns:
+  - .venv/**
+  - _build/**
+  - .ipynb_checkpoints/**
+  - node_modules/**
+  - **/.DS_Store
+  - **/*.tmp
+
