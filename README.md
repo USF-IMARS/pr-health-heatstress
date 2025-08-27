@@ -19,7 +19,8 @@ source .venv/bin/activate
 # install dependencies
 pip install -r requirements.txt
 
-# TODO: setup gee...
+# GEE setup
+earthengine authenticate
 ```
 
 The software is now installed.
