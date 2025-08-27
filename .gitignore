@@ -1,14 +1,8 @@
-/.quarto/
-*csv
+# virtual environment installation
+.venv/
 
-.Rproj.user
-*.Rproj
-.Rhistory
-.RData
-.Ruserdata
+# jupyterbook build files
+_build/
 
-/.quarto/
-*_cache/
-*.cache/
-*_files/
-_site/*
+# ubuntu backup files
+*~
