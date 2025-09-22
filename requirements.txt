@@ -2,3 +2,4 @@ jupyter-book
 ghp-import
 earthengine-api
 geemap
+h5py

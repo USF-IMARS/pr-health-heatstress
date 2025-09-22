@@ -3,3 +3,4 @@ root: index
 chapters:
   - file: modisMap
   - file: viirsMap
+  - file: viirsNASA
