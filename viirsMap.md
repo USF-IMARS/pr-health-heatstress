@@ -10,7 +10,7 @@ kernelspec:
 ---
 
 
-# MODIS LST from GEE Dataset 
+# VIIRS LST from GEE Dataset 
 
 ```{code-cell} ipython3
 :tags: [hide-input]   # folded by default; click to toggle
@@ -21,7 +21,7 @@ kernelspec:
 
   # --- CONFIG ---
   ROI  = ee.Geometry.Rectangle([-67.5, 17.8, -65.1, 18.6])
-  COLL = 'MODIS/061/MOD21A1D'
+  COLL = 'NASA/VIIRS/002/VNP21A1N'
   BAND = 'LST_1KM'  # change to 'LST' if needed
   SCALE = 1000
   COVERAGE_THRESHOLD = 0.1  # maximum % of masked pixels allowed before trying older image
